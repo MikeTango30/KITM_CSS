@@ -1,0 +1,62 @@
+section {
+	background-color: pink;
+}
+
+article {
+	background-color: yellow;
+}
+.lead{
+	background-color: white;
+	font-size: 2em;
+}
+
+.strong{
+	font-weight: bold;
+}
+
+.hide{
+	display: ;
+}
+
+a[href="www.kitm.lt"]{
+	color: red;
+}
+
+a[href="www.smm.lt"]{
+	color: green;
+}
+
+a[href="www.delfi.lt"]{
+	color: brown;
+}
+
+a[href$=".pdf"] {
+  color: green;
+}
+
+a[href$=".docx"] {
+  color: red;
+}
+
+a[href$=".xlsx"] {
+  color: grey;
+}
+
+/*Links*/
+
+a:link{
+	color: red;
+	text-decoration: none;
+}
+
+a:visited{
+	color: green;
+}
+
+a:hover{
+	color: aqua;
+}
+
+ul.references > li:nth-child(2n+3){
+	background-color: magenta;
+}
