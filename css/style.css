@@ -1,4 +1,69 @@
-section {
+h1 {
+	font-family: 'Manjari', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+article p {
+	text-align: justify;
+	line-height: 2;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bolder;
+	font-family: 'Cute Font', cursive;
+}
+
+article h2 {
+	font-size: 1.3em;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+}
+
+[class^="fa"]{/*-angry:before*/
+	color: aqua;
+}
+
+.fa-affiliatetheme {
+	color: teal;
+}
+
+.fa-air-freshener {
+	color: yellow;
+}
+
+.fa-acquisitions-incorporated {
+	color: magenta;
+}
+
+.fa-american-sign-language-interpreting {
+	color: brown;
+}
+
+.fa-arrow-circle-down {
+	color: silver;
+}
+
+
+
+/*body {
+	font-size: 1.2em;
+}
+
+article {
+	font-size: 2em;
+}
+
+p {
+	font-size: 2rem;
+}
+*/
+/*section {
 	background-color: pink;
 }
 
@@ -43,7 +108,7 @@ a[href$=".xlsx"] {
 }
 
 /*Links*/
-
+/*
 a:link{
 	color: red;
 	text-decoration: none;
@@ -59,4 +124,4 @@ a:hover{
 
 ul.references > li:nth-child(2n+3){
 	background-color: magenta;
-}
+}*/
